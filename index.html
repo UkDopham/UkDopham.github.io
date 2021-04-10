@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>2048</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div name="Entete" class="setrow">
+		<b vertical-align="top" style="font-size:50px; flex:60"> 2048 </b>
+	
+		<div style="flex:40">
+			<div class="panelScores padding_small greybackround" >
+				<b> Nouvelle partie </b>
+			</div>
+		</div>	
+	</div>
+	
+
+	<div name="Descriptions" class="setrow">
+		<p class="column_large" style="font-size:18px;">by ELISABETH Lionel and DO PHAM Alexandre</p>
+
+	
+		<div class= "column_thin">
+			<div class="panelScores padding_small greybackround" >
+				<b> Score </b>
+				<br>
+				<b Name = "ScoreValue" style="font-size:30px" id="score"> 0 </b>
+			</div>
+		</div>
+	</div>
+
+
+	<div name = jeu>
+		<canvas id="canvas" width="475" height="475"></canvas>
+	</div>
+	<script src ="index.js" type="text/javascript"></script>
+	
+
+	<div name="Descriptions">
+		<p>
+			<b>Regles : </b> C'est un 2048 normal. Il se joue avec les flèches du clavier. 
+		</p>
+	</div>
+</body>
+</html>
